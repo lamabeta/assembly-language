@@ -1,5 +1,5 @@
 
-### Assembly Language Programming (x86 & x86-64) — Table of Contents
+### Assembly Language Programming (x86 & x86-64)
 
 1. Introduction to Assembly Language
     - 1.1 What is Assembly Language?
