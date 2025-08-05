@@ -5,11 +5,9 @@
     - 1.1 What is Assembly Language?
     - 1.2 Where is Assembly Used Today?
     - 1.3 From High-Level Languages to Machine Code
-    - 1.4 How Instructions Are Represented in the Computer
-    - 1.5 Understanding Machine Code vs. Assembly Code
-    - 1.6 The CPU: Registers, ALU, and Control Unit
-    - 1.7 The x86/x86-64 CPU Architecture Overview
-    - 1.8 x86/x86-64 Reference Tables (Instructions, Registers)
+    - 1.4 Understanding Machine Code vs. Assembly Code
+    - 1.5 The CPU: Registers, ALU, and Control Unit
+    - 1.6 The x86 and x86-64 CPU Architecture
 
 2. Setting Up Assembly Programming Environment
     - 2.1 Choosing an Assembler (NASM, MASM, GAS, etc.)
