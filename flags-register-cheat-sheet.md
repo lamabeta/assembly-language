@@ -76,9 +76,3 @@ CLI      ; Clear Interrupt flag (IF = 0)
 
 - `PUSHF` : Pushes the FLAGS register onto the stack.
 - `POPF`  : Pops the FLAGS register from the stack.
-
-
-
-**Happy Coding!** 🎉
-
-Let me know if you want a printable PDF or more examples!
