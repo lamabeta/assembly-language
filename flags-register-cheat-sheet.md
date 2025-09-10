@@ -47,32 +47,35 @@
 
 ### 1. Conditional Jumps Based on Flags
 
-```asm
-JE/JZ   ; Jump if Zero flag is set (ZF=1)
-JNE/JNZ ; Jump if Zero flag is clear (ZF=0)
-JC      ; Jump if Carry flag is set (CF=1)
-JNC     ; Jump if Carry flag is clear (CF=0)
-JS      ; Jump if Sign flag is set (SF=1)
-JNS     ; Jump if Sign flag is clear (SF=0)
-JO      ; Jump if Overflow flag is set (OF=1)
-JNO     ; Jump if Overflow flag is clear (OF=0)
-JP/JPE  ; Jump if Parity flag is set (PF=1)
-JNP/JPO ; Jump if Parity flag is clear (PF=0)
-```
+| **Instruction**  | **Description**                                           |
+|------------------|-----------------------------------------------------------|
+|`JE`/`JZ`   | Jump if Zero flag is set (ZF=1)|
+|`JNE`/`JNZ` | Jump if Zero flag is clear (ZF=0)|
+|`JC`     | Jump if Carry flag is set (CF=1)|
+|`JNC`     | Jump if Carry flag is clear (CF=0)|
+|`JS`     | Jump if Sign flag is set (SF=1)|
+|`JNS     | Jump if Sign flag is clear (SF=0)|
+|`JO`      | Jump if Overflow flag is set (OF=1)|
+|`JNO`    | Jump if Overflow flag is clear (OF=0)|
+|`JP`/`JPE`  | Jump if Parity flag is set (PF=1)|
+|`JNP`/`JPO` | Jump if Parity flag is clear (PF=0)|
+
 
 ### 2. Setting and Clearing Flags
 
-```asm
-STC      ; Set Carry flag (CF = 1)
-CLC      ; Clear Carry flag (CF = 0)
-CMC      ; Complement Carry flag (CF = ~CF)
-STD      ; Set Direction flag (DF = 1)
-CLD      ; Clear Direction flag (DF = 0)
-STI      ; Set Interrupt flag (IF = 1)
-CLI      ; Clear Interrupt flag (IF = 0)
-```
+| **Instruction**  | **Description**                                           |
+|------------------|-----------------------------------------------------------|
+|`STC`| Set Carry flag (CF = 1)|
+|`CLC`| Clear Carry flag (CF = 0)|
+|`CMC`| Complement Carry flag (CF = ~CF)|
+|`STD`| Set Direction flag (DF = 1)|
+|`CLD`| Clear Direction flag (DF = 0)|
+|`STI`| Set Interrupt flag (IF = 1)|
+|`CLI`| Clear Interrupt flag (IF = 0)|
+
 
 ### 3. PUSHF / POPF
-
-- `PUSHF` : Pushes the FLAGS register onto the stack.
-- `POPF`  : Pops the FLAGS register from the stack.
+| **Instruction**  | **Description**                                           |
+|------------------|-----------------------------------------------------------|
+|`PUSHF`| Pushes the FLAGS register onto the stack.|
+|`POPF` | Pops the FLAGS register from the stack.|
